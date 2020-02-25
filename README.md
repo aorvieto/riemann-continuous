@@ -9,5 +9,11 @@ All scripts are written in Matlab 2017b, but should work for any recent version 
 No libraries (e.g. Manopt) are required: geometry is implemented directly.
 
 # Contents of this repo
- - `distance_minimization_toy.m` minimizes the cost $\frac{1}{2} d(x,p)$
 
+We test the performance of SIRNAG, a semi-implicit discretization of RNAG-ODE, with the following experiments:
+
+ - `distance_minimization_toy.m` minimizes the distance to a point on manifolds of costant, positive or negative curvature. Used to generate Figure 1.
+
+ - `sphere_eigproblem.m` minimizes the Rayleigh quotient on the sphere. Used to generate Figure 2.
+ 
+ - `convergence_trajectory_SIRNAG.m` tests the convergence of SIRNAG to RNAG-ODE. Used to generate Figure 3.
