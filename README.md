@@ -12,7 +12,7 @@ No libraries (e.g. Manopt) are required: geometry is implemented directly.
 
 We test the performance of SIRNAG, a semi-implicit discretization of RNAG-ODE, with the following experiments:
 
- - `distance_minimization_toy.m` minimizes the distance to a point on manifolds of costant, positive or negative curvature. Used to generate Figure 1.
+ - `distance_minimization_toy.m` minimizes the distance to a point on manifolds of any costant positive or negative curvature. Used to generate Figure 1.
 
  - `sphere_eigproblem.m` minimizes the Rayleigh quotient on the sphere. Used to generate Figure 2.
  
