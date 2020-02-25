@@ -6,7 +6,7 @@ For any questions, please contact me at antonio.orvieto@inf.ethz.ch
 # Requirements
 All scripts are written in Matlab 2017b, but should work for any recent version of Matlab. 
 
-No libraries (e.g. Manopt) are required: geometry is implemented directly.
+No libraries (e.g. Manopt) are required: geometry is implemented directly in each script.
 
 # Contents of this repo
 
